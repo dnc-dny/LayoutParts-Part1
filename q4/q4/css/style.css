@@ -1,1 +1,53 @@
 @charset "UTF-8";
+table{
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 100%;
+  }
+
+tr{
+  display: table;
+  width: 100%;
+}
+
+.tr2{
+  margin-top: 50px;
+}
+
+td{
+  display: table-cell;
+  text-align: center;
+  padding: 20px;
+}
+
+.tr1 td:nth-child(1){
+background: #ff7b7b;
+width: 300px;
+}
+
+.tr1 td:nth-child(2){
+  background: #7b86ff;
+}
+
+.tr1 td:nth-child(3){
+  background: #fff27b;
+  width: 300px;
+}
+
+.tr2 td:nth-child(1){
+  background: #7bff91;
+}
+
+.tr2 td:nth-child(2){
+  background: #ff7be2;
+  width: 400px;
+}
+
+.tr2 td:nth-child(3){
+  background: #ffc67b;
+  width: 400px;
+}
+
+.tr2 td:nth-child(4){
+  background: #7bf2ff;
+}
