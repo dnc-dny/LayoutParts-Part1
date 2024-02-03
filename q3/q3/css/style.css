@@ -14,24 +14,23 @@ th,td{
 
 }
 
+tr{
+  background: #d5ffc7;
+}
+
 th{
   background: #319c4a;
   line-height: 26px;
 }
 
 td{
-  background: #d5ffc7;
   line-height: 22px;
 }
 
-.cell--table tr:last-child{
+tbody tr:last-child{
 border-top: 1px double rgb(255,255,255);
 }
 
-.row1 td:nth-child(n+1){
-  background: #bcbcbc;
-}
-
-.row2 td:nth-child(n+1){
+tbody tr:nth-child(2n){
   background: #bcbcbc;
 }
